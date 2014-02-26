@@ -1,0 +1,20 @@
+<!DOCTYPE ui:UiBinder SYSTEM "http://dl.google.com/gwt/DTD/xhtml.ent">
+<ui:UiBinder xmlns:ui="urn:ui:com.google.gwt.uibinder"
+	xmlns:g="urn:import:com.google.gwt.user.client.ui">
+	<ui:style>
+	
+	</ui:style>
+	<g:HTMLPanel>
+		<g:LayoutPanel width="460px" height="142px">
+			<g:layer left="17px" width="79px" top="26px" height="25px">
+				<g:Label text="Subtopico: "/>
+			</g:layer>
+			<g:layer left="94px" width="301px" top="17px" height="58px">
+				<g:TextArea/>
+			</g:layer>
+			<g:layer left="94px" width="141px" top="91px" height="25px">
+				<g:Button ui:field="button" text="Add Subtopico"/>
+			</g:layer>
+		</g:LayoutPanel>
+	</g:HTMLPanel>
+</ui:UiBinder> 

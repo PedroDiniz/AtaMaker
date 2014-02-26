@@ -1,0 +1,31 @@
+<!DOCTYPE ui:UiBinder SYSTEM "http://dl.google.com/gwt/DTD/xhtml.ent">
+<ui:UiBinder xmlns:ui="urn:ui:com.google.gwt.uibinder"
+	xmlns:g="urn:import:com.google.gwt.user.client.ui">
+	<ui:style>
+	
+	</ui:style>
+	<g:HTMLPanel>
+		<g:ScrollPanel height="265px" width="1240px">
+			<g:LayoutPanel width="1240px" height="269px" ui:field="layoutAta">
+				<g:layer left="95px" width="356px" top="46px" height="38px">
+					<g:TextArea ui:field="caixaTopico"/>
+				</g:layer>
+				<g:layer left="20px" width="60px" top="55px" height="18px">
+					<g:Label text="Tópico" width=""/>
+				</g:layer>
+				<g:layer left="491px" width="100px" top="54px" height="30px">
+					<g:Button ui:field="addTopico">Novo Topico</g:Button>
+				</g:layer>
+				<g:layer left="20px" width="60px" top="114px" height="18px">
+					<g:Label text="Subtopico: " width=""/>
+				</g:layer>
+				<g:layer left="95px" width="356px" top="105px" height="90px">
+					<g:TextArea ui:field="caixaSubtopico"/>
+				</g:layer>
+				<g:layer left="491px" width="100px" top="137px" height="30px">
+					<g:Button text="Gerar Ata" ui:field="gerarAta">Novo Topico</g:Button>
+				</g:layer>
+			</g:LayoutPanel>
+		</g:ScrollPanel>
+	</g:HTMLPanel>
+</ui:UiBinder> 

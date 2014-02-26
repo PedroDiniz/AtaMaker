@@ -1,0 +1,35 @@
+<!DOCTYPE ui:UiBinder SYSTEM "http://dl.google.com/gwt/DTD/xhtml.ent">
+<ui:UiBinder xmlns:ui="urn:ui:com.google.gwt.uibinder"
+	xmlns:g="urn:import:com.google.gwt.user.client.ui" xmlns:p1="urn:import:com.google.gwt.user.cellview.client" xmlns:p2="urn:import:com.google.gwt.user.datepicker.client">
+	<ui:style>
+	
+	</ui:style>
+	<g:HTMLPanel>
+		<g:LayoutPanel width="1240px" height="504px">
+			<g:layer left="262px" width="60px" top="27px" height="18px">
+				<g:Label text="Cadastrar"/>
+			</g:layer>
+			<g:layer left="82px" width="429px" top="73px" height="34px">
+				<g:TextBox ui:field="cadastroCaixa"/>
+			</g:layer>
+			<g:layer left="672px" width="204px" top="53px" height="100px">
+				<g:ListBox visibleItemCount="5" ui:field="list"/>
+			</g:layer>
+			<g:layer left="273px" width="60px" top="163px" height="18px">
+				<g:Label text="Data"/>
+			</g:layer>
+			<g:layer left="82px" width="429px" top="203px" height="34px">
+				<g:TextBox ui:field="dataCaixa"/>
+			</g:layer>
+			<g:layer left="79px" width="205px" top="268px" height="191px">
+				<p2:DatePicker ui:field="datePicker"/>
+			</g:layer>
+			<g:layer left="491px" width="83px" top="429px" height="30px">
+				<g:Button ui:field="okBotao">Ok</g:Button>
+			</g:layer>
+			<g:layer left="547px" width="83px" top="73px" height="30px">
+				<g:Button ui:field="cadastrarBotao" text="Cadastrar"/>
+			</g:layer>
+		</g:LayoutPanel>
+	</g:HTMLPanel>
+</ui:UiBinder> 

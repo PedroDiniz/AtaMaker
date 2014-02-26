@@ -1,0 +1,2 @@
+serviceClass: ata.client.GreetingService
+path: 35EA37B1975BABA7816EC49A923BD438.gwt.rpc

@@ -1,0 +1,65 @@
+<!DOCTYPE ui:UiBinder SYSTEM "http://dl.google.com/gwt/DTD/xhtml.ent">
+<ui:UiBinder xmlns:ui="urn:ui:com.google.gwt.uibinder"
+	xmlns:g="urn:import:com.google.gwt.user.client.ui" xmlns:p1="urn:import:com.google.gwt.user.cellview.client" xmlns:p2="urn:import:com.google.gwt.user.datepicker.client">
+	<ui:style>
+	
+	</ui:style>
+	<g:StackPanel>
+		<g:LayoutPanel width="1240px" height="732px">
+			<g:layer left="339px" width="83px" top="564px" height="30px">
+				<g:Button text="Criar Ata" ui:field="criarAta">ok</g:Button>
+			</g:layer>
+			<g:layer left="35px" width="60px" top="51px" height="18px">
+				<g:Label text="Presentes"/>
+			</g:layer>
+			<g:layer left="35px" width="60px" top="152px" height="18px">
+				<g:Label text="Ausentes"/>
+			</g:layer>
+			<g:layer left="35px" width="71px" top="255px" height="18px">
+				<g:Label text="Presidente"/>
+			</g:layer>
+			<g:layer left="35px" width="71px" top="362px" height="18px">
+				<g:Label text="Ateiro"/>
+			</g:layer>
+			<g:layer left="35px" width="71px" top="463px" height="18px">
+				<g:Label text="Atrasos"/>
+			</g:layer>
+			<g:layer left="129px" width="204px" top="40px" height="48px">
+				<g:ListBox visibleItemCount="5" ui:field="listBoxPresentes"/>
+			</g:layer>
+			<g:layer left="366px" width="83px" top="51px" height="30px">
+				<g:Button ui:field="addPresentes" text="Add">Selecionar</g:Button>
+			</g:layer>
+
+			<g:layer left="129px" width="204px" top="144px" height="48px">
+				<g:ListBox visibleItemCount="5" ui:field="listBoxAusentes"/>
+			</g:layer>
+			<g:layer left="365px" width="83px" top="152px" height="30px">
+				<g:Button ui:field="addAusentes" text="Add">Selecionar</g:Button>
+			</g:layer>
+			<g:layer left="129px" width="374px" top="247px" height="48px">
+				<g:ListBox visibleItemCount="5" ui:field="listBoxPresidente"/>
+			</g:layer>
+			<g:layer left="129px" width="374px" top="348px" height="48px">
+				<g:ListBox visibleItemCount="5" ui:field="listBoxAteiro"/>
+			</g:layer>
+			<g:layer left="129px" width="204px" top="454px" height="48px">
+				<g:ListBox visibleItemCount="5" ui:field="listBoxAtraso"/>
+			</g:layer>
+			<g:layer left="365px" width="83px" top="462px" height="30px">
+				<g:Button text="Add" ui:field="addAtrasado">Selecionar</g:Button>
+			</g:layer>
+			<g:layer left="485px" width="204px" top="13px" height="100px">
+				<g:ListBox visibleItemCount="5" ui:field="presentesListBox"/>
+			</g:layer>
+			<g:layer left="485px" width="204px" top="131px" height="100px">
+				<g:ListBox visibleItemCount="5" ui:field="ausentesListBox"/>
+			</g:layer>
+			<g:layer left="485px" width="204px" top="443px" height="100px">
+				<g:ListBox visibleItemCount="5" ui:field="atrasosListBox"/>
+			</g:layer>
+		
+			
+		</g:LayoutPanel>
+	</g:StackPanel>
+</ui:UiBinder> 
